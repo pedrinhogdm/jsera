@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: cornflowerblue;
+}
+
+section{
+    width: 500px;
+    margin: auto;
+    padding: 30px 10px 30px 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+div#res{
+    text-align: center;
+    padding: 10px;
+}
+
+img#foto{
+    padding-bottom: 20px;
+    margin: auto;
+}

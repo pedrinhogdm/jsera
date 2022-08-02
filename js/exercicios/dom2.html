@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 2</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div#area{
+            background-color: blue;
+            color: white;
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            line-height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">Clique aqui</div>
+
+
+    <script>
+        var a = document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.innerText = 'Comi o cu de quem tá lendo!'
+            a.style.background = '#5683e4'
+        }
+        function entrar() {
+            a.innerText = 'Clica logo!'
+            a.style.background = 'red'
+        }
+        function sair() {
+            a.innerText = 'Clica logo!'
+            a.style.background = 'blue'
+        }
+
+    </script>
+</body>
+</html>

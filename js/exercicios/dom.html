@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Vamos mexer com DOM</h1>
+    <p>Estamos aprendendo a mexer com <strong>DOM</strong></p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus soluta pariatur sequi excepturi magnam? Numquam adipisci et explicabo non reiciendis ullam ipsum veritatis, saepe dicta distinctio officia. Facere, dolor inventore.</p>
+
+    <div id="link">
+        <p>Clique <strong>aqui</strong> para saber mais</p>
+    </div>
+
+
+    <script>
+        var p0 = document.getElementsByTagName('p')[0]
+        var corpo = document.body
+        corpo.style.backgroundColor = 'black'
+        corpo.style.color = 'darkgrey'
+        p0.style.color = 'white'
+        var link = document.querySelector('div#link')
+        link.style.color = 'lightblue'
+
+    </script>
+</body>
+</html>

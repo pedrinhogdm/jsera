@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color:  cornflowerblue;
+}
+
+section{
+    margin: auto;
+    width: 500px;
+    background-color: white;
+    padding: 20px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+div#res{
+    padding: 10px;
+    text-align: center;
+}
+
+p#sexo{
+    text-align: center;
+}
+
+div#botao{
+    text-align: center;
+}
